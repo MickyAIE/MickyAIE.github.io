@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space Shooter</title>
+    <link rel="stylesheet" href="..\style.css">
+    <link rel="shortcut icon" href="..\TemplateData/favicon.ico">
+    <script src="..\TemplateData/UnityProgress.js"></script>  
+    <script src="..\Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "../Build/webgl.json", {onProgress: UnityProgress});
+    </script>
+</head>
+    <body>
+        <div class="webgl-content">
+            <div id="gameContainer" style="width: 1280px; height: 720px"></div>
+            <div class="footer">
+                <div class="webgl-logo"></div>
+                <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                <div class="title">Space Shooter</div>
+            </div>
+        </div>
+        
+        <br>
+        <a href="..\index.html"><p>Home Page</p></a>
+    </body>
+</html>
