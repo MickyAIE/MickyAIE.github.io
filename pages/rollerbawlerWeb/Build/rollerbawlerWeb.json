@@ -2,8 +2,6 @@
 "companyName": "DefaultCompany",
 "productName": "RollerBawler",
 "dataUrl": "rollerbawlerWeb.data.unityweb",
-"wasmCodeUrl": "rollerbawlerWeb.wasm.code.unityweb",
-"wasmFrameworkUrl": "rollerbawlerWeb.wasm.framework.unityweb",
 "asmCodeUrl": "rollerbawlerWeb.asm.code.unityweb",
 "asmMemoryUrl": "rollerbawlerWeb.asm.memory.unityweb",
 "asmFrameworkUrl": "rollerbawlerWeb.asm.framework.unityweb",
